@@ -1,42 +1,42 @@
-# Visualisation de la Sphère de Bloch
+# Bloch Sphere Visualization
 
-Une visualisation 3D interactive et moderne de la sphère de Bloch pour l'éducation en informatique quantique, utilisant React et Three.js.
+An interactive and modern 3D visualization of the Bloch sphere for quantum computing education, using React and Three.js.
 
-## Caractéristiques
+## Features
 
-- Sphère de Bloch 3D interactive avec contrôles d'orbite, zoom et déplacement
-- Affichage en temps réel du vecteur d'état avec notation mathématique
-- Visualisation des portes quantiques et de leurs effets
-- Outils pédagogiques et tutoriels pour l'apprentissage des concepts d'informatique quantique
-- Design responsive pour divers appareils
+- Interactive 3D Bloch sphere with orbit, zoom, and pan controls
+- Real-time display of the state vector with mathematical notation
+- Visualization of quantum gates and their effects
+- Educational tools and tutorials for learning quantum computing concepts
+- Responsive design for various devices
 
-## Démarrage
+## Getting Started
 
-1. Clonez le dépôt
-2. Installez les dépendances : `npm install`
-3. Démarrez le serveur de développement : `npm start` ou utilisez le fichier batch fourni
-4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start` or use the provided batch file
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Technologies Utilisées
+## Technologies Used
 
-- React.js pour le framework UI
-- Three.js pour le rendu 3D
-- Math.js pour les opérations sur les nombres complexes
-- Material UI pour les composants d'interface
-- React Three Fiber & Drei pour l'intégration de Three.js avec React
+- React.js for the UI framework
+- Three.js for 3D rendering
+- Math.js for complex number operations
+- Material UI for interface components
+- React Three Fiber & Drei for Three.js integration with React
 
-## Utilisation
+## Usage
 
-L'application permet aux utilisateurs de :
-- Manipuler les états quantiques sur la sphère de Bloch
-- Appliquer des portes quantiques et voir leurs effets
-- Apprendre les concepts d'informatique quantique grâce à des tutoriels interactifs
-- Personnaliser l'apparence et le niveau de détail de la visualisation
+The application allows users to:
+- Manipulate quantum states on the Bloch sphere
+- Apply quantum gates and see their effects
+- Learn quantum computing concepts through interactive tutorials
+- Customize the appearance and level of detail of the visualization
 
-## Documentation Technique
+## Technical Documentation
 
-La visualisation fonctionne en convertissant les coordonnées sphériques (θ, φ) et les amplitudes complexes (α, β) en un vecteur dans l'espace 3D. Les portes quantiques modifient ces valeurs selon les principes de la mécanique quantique, permettant une représentation visuelle intuitive des transformations d'états quantiques.
+The visualization works by converting spherical coordinates (θ, φ) and complex amplitudes (α, β) into a vector in 3D space. Quantum gates modify these values according to the principles of quantum mechanics, allowing an intuitive visual representation of quantum state transformations.
 
-## À Propos de l'Auteur
+## About the Author
 
-Cet outil a été développé par Lucas AUBERT, ancien étudiant en Master 2 Systèmes Embarqués, grâce aux notes et conseils de M. Dubois. Il vise à fournir une ressource pédagogique interactive pour faciliter la compréhension des concepts fondamentaux de l'informatique quantique.
+This tool was developed by Lucas AUBERT, former Master 2 Embedded Systems student, thanks to the notes and advice of Dr. Dubois. It aims to provide an interactive educational resource to facilitate understanding of the fundamental concepts of quantum computing.
